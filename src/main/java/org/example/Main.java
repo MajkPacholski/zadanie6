@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,8 +10,7 @@ public class Main {
 
         ConvertToInteger convert = new ConvertToInteger(arr, valueToAdd);
 
-
-        System.out.println(convert.convertInputArrToInteger());
+            System.out.println(Arrays.toString(convert.convertToArrayOutput()));
 
     }
 }

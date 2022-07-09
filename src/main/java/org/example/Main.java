@@ -10,7 +10,7 @@ public class Main {
 
         ConvertToInteger convert = new ConvertToInteger(arr, valueToAdd);
 
-            System.out.println(Arrays.toString(convert.convertToArrayOutput()));
+        System.out.println(Arrays.toString(convert.makeNewOutputArray()));
 
     }
 }
